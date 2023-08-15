@@ -40,7 +40,7 @@ const PortfolioOrganism = () => {
               'Web application for social campaigns that focuses on volunteer programs and fundraising. This application is designed to provide a platform that facilitates users in contributing and getting involved in various social campaign programs.'
             }
             category={
-              'Next.JS - Tailwind CSS - Rest API - Redux - Daisy UI - Formik'
+              'Next.JS - Tailwind CSS - Rest API - Redux - Daisy UI - Formik - Vercel'
             }
           />
         </div>
@@ -53,7 +53,7 @@ const PortfolioOrganism = () => {
               'A website-based application created to read books online, the books provided are the result of Google Books. Users can add comments to a book.'
             }
             category={
-              'Next.JS - Tailwind CSS - Google Books API - Daisy UI - Redux - Firebase'
+              'Next.JS - Tailwind CSS - Google Books API - Daisy UI - Redux - Firebase - Vercel'
             }
           />
         </div>
@@ -66,19 +66,21 @@ const PortfolioOrganism = () => {
               'Website-based application with a focus on smartphone users. Serves to regulate the nutritional pattern of five-year-old babies and provide nutritional advice.'
             }
             category={
-              'Next.JS - Tailwind CSS - Daisy UI - Redux - Firebase - Formik'
+              'Next.JS - Tailwind CSS - Daisy UI - Redux - Firebase - Formik - Vercel'
             }
           />
         </div>
         <div data-aos="fade-up-left">
           <Card
-            link={'https://react-yahoo-garfield-manik.vercel.app/'}
-            img={'bg-[url(/img/portfolio/react-yahoo.jpg)]'}
-            title={'Simple Landing Page'}
+            link={'https://tokopeduli-play.vercel.app/'}
+            img={'bg-[url(/img/portfolio/tokped.jpg)]'}
+            title={'Tokopeduli Play'}
             description={
-              'This website was created when I attended the Batch 4 Independent Study program at Alterra Academy.'
+              'This website was created when I attended Fullstack Engineer in Generasi GIGIH 3.0 at GoTo Foundation.'
             }
-            category={'React.JS - Bootstrap - Vite - GraphQL'}
+            category={
+              'React.JS - Chakra UI - Vite - Axios - Typescript - Javascript - Express JS - Node JS - Vercel - Formik - Yup - Mongo DB'
+            }
           />
         </div>
       </div>
