@@ -11,7 +11,15 @@ import {
   TbBrandTypescript,
 } from 'react-icons/tb';
 import { BiLogoBootstrap, BiLogoTailwindCss } from 'react-icons/bi';
-import { SiApollographql, SiFigma, SiGit } from 'react-icons/si';
+import {
+  SiApollographql,
+  SiFigma,
+  SiGit,
+  SiChakraui,
+  SiExpress,
+  SiMongodb,
+  SiDaisyui,
+} from 'react-icons/si';
 
 const CarouselScrollMolecules = () => {
   return (
@@ -64,6 +72,18 @@ const CarouselScrollMolecules = () => {
             <div className="mx-10">
               <SiFigma size={80} />
             </div>
+            <div className="mx-10">
+              <SiChakraui size={80} />
+            </div>
+            <div className="mx-10">
+              <SiExpress size={80} />
+            </div>
+            <div className="mx-10">
+              <SiMongodb size={80} />
+            </div>
+            <div className="mx-10">
+              <SiDaisyui size={80} />
+            </div>
           </div>
           <div className="animate-scroll flex">
             <div className="mx-10">
@@ -107,6 +127,18 @@ const CarouselScrollMolecules = () => {
             </div>
             <div className="mx-10">
               <SiFigma size={80} />
+            </div>
+            <div className="mx-10">
+              <SiChakraui size={80} />
+            </div>
+            <div className="mx-10">
+              <SiExpress size={80} />
+            </div>
+            <div className="mx-10">
+              <SiMongodb size={80} />
+            </div>
+            <div className="mx-10">
+              <SiDaisyui size={80} />
             </div>
           </div>
         </div>
