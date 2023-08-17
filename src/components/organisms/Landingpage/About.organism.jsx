@@ -58,13 +58,13 @@ const AboutOrganism = () => {
               >
                 I just finished my Diploma Degree 3 at the University of North
                 Sumatra, majoring in Informatics Engineering with Grade 3.73. My
-                current activity is participating in the GoTo program, namely
-                Yayasan Anak Bangsa Bisa as a Full Stack Engineer. My plan for
-                the future is to develop myself into someone who has value in
-                the field of technology, to be precise a Fullstack Developer,
-                and prepare myself to compete in the Industry 5.0 world with
-                always learning about programming and also implementing what I
-                learn.
+                current activity is participating in the GoTo Foundation
+                program, namely Generasih GIGIH 3.0 as a Full Stack Engineer. My
+                plan for the future is to develop myself into someone who has
+                value in the field of technology, to be precise a Fullstack
+                Developer, and prepare myself to compete in the Industry 4.0
+                world with always learning about programming and also
+                implementing what I learn.
               </p>
             </div>
             <hr data-aos="fade-right" data-aos-delay="1000" />
