@@ -40,7 +40,7 @@ const AboutOrganism = () => {
                 data-aos-delay="600"
               >
                 <Typewriter
-                  words={['IT Student', 'Front-End Web Developer']}
+                  words={['Freshgraduate', 'Front-End Developer']}
                   cursor
                   loop={true}
                   cursorStyle="_"
@@ -57,7 +57,7 @@ const AboutOrganism = () => {
                 data-aos-delay="800"
               >
                 I just finished my Diploma Degree 3 at the University of North
-                Sumatra, majoring in Informatics Engineering with Grade 3.73. My
+                Sumatra, majoring in Informatics Engineering with Grade 3.72. My
                 current activity is participating in the GoTo Foundation
                 program, namely Generasih GIGIH 3.0 as a Full Stack Engineer. My
                 plan for the future is to develop myself into someone who has
@@ -105,13 +105,16 @@ const AboutOrganism = () => {
                 <BsDashLg className="text-2xl md:text-4xl lg:text-5xl" />
               </div>
               <div className="flex gap-1 items-center">
-                <a href="https://www.instagram.com/yahoomanik/">
+                <a href="https://www.instagram.com/yahoomanik/" target="blank">
                   <FaInstagramSquare className="text-2xl md:text-4xl lg:text-6xl hover:text-my-primary transition-all ease-in" />
                 </a>
-                <a href="https://www.linkedin.com/in/yahoo-garfield-manik/">
+                <a
+                  href="https://www.linkedin.com/in/yahoo-garfield-manik/"
+                  target="blank"
+                >
                   <FaLinkedin className="text-2xl md:text-4xl lg:text-6xl hover:text-my-primary transition-all ease-in" />
                 </a>
-                <a href="https://github.com/yahoogm">
+                <a href="https://github.com/yahoogm" target="blank">
                   <FaGithubSquare className="text-2xl md:text-4xl lg:text-6xl hover:text-my-primary transition-all ease-in" />
                 </a>
               </div>

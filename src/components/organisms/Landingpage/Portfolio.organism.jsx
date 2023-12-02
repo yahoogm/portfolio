@@ -33,6 +33,30 @@ const PortfolioOrganism = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
         <div data-aos="fade-up-right">
           <Card
+            link={'https://besakih.wastehub.id/'}
+            img={'bg-[url(/img/portfolio/home_mockup.jpg)]'}
+            title={'Wastehub Besakih'}
+            description={
+              'Web application for handling waste management in Besakih Village. This website is my capstone project in Generasi GIGIH 3.0. This website build by team and me as a Frontend.'
+            }
+            category={'React.JS - Grid JS - Day JS - Material Tailwind'}
+          />
+        </div>
+        <div data-aos="fade-up-left">
+          <Card
+            link={'https://the-todo-beta.vercel.app/'}
+            img={'bg-[url(/img/portfolio/todo_mockup.jpg)]'}
+            title={'Todo App'}
+            description={
+              'A website-based application created to make your todo list, and the website is my personal project. Have many feature like sign in, sign up, filter by complete or not complete, pagination, add, delete, and edit list.'
+            }
+            category={
+              'Next.JS - Tailwind CSS - Typescript - Daisy UI - Vercel - Public API'
+            }
+          />
+        </div>
+        <div data-aos="fade-up-right">
+          <Card
             link={'https://sociops-admin.vercel.app/'}
             img={'bg-[url(/img/portfolio/sociops.jpg)]'}
             title={'Sociops'}
