@@ -29,6 +29,15 @@ const CertificateOrganism = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
         <div data-aos="flip-down">
           <CardCertificate
+            title={'FullStack Engineering'}
+            organizer={'GoTo Impact Foundation'}
+            link={
+              'https://drive.google.com/file/d/1P1Kx8i0rcJxX19oBoljXf9OfWYN6A0sU/view?usp=sharing'
+            }
+          />
+        </div>
+        <div data-aos="flip-down">
+          <CardCertificate
             title={'React JS'}
             organizer={'Progate'}
             link={'https://progate.com/course_certificate/fc57e20eryrea5'}
