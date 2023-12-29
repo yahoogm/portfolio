@@ -75,7 +75,7 @@ const AboutOrganism = () => {
             >
               <a
                 className="group relative inline-flex items-center overflow-hidden border border-my-primary px-8 py-3 focus:outline-none focus:ring"
-                href="/CV/CV - Yahoo Garfield Manik ATS.pdf"
+                href="/CV/CV - Yahoo Garfield Manik.pdf"
                 download
                 target="_blank"
               >
