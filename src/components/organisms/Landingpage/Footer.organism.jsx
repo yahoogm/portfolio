@@ -81,7 +81,7 @@ const FooterOrganism = () => {
       </div>
       <div>
         <p>
-          © 2023 | by{' '}
+          © {new Date().getFullYear()} | by{' '}
           <a
             href="https://linkedin.com/in/yahoo-garfield-manik"
             className="text-my-primary"

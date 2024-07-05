@@ -58,13 +58,30 @@ const AboutOrganism = () => {
               >
                 I just finished my Diploma Degree 3 at the University of North
                 Sumatra, majoring in Informatics Engineering with Grade 3.72. My
-                current activity is participating in the GoTo Foundation
-                program, namely Generasih GIGIH 3.0 as a Full Stack Engineer. My
-                plan for the future is to develop myself into someone who has
-                value in the field of technology, to be precise a Fullstack
-                Developer, and prepare myself to compete in the Industry 4.0
-                world with always learning about programming and also
-                implementing what I learn.
+                latest activity is participating in the Magang Generasi
+                Bertalenta{' '}
+                <a
+                  href="https://magentaku.id/"
+                  className="font-bold text-lm-link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  (MAGENTA)
+                </a>{' '}
+                program at{' '}
+                <a
+                  href="https://pelindomultiterminal.co.id/"
+                  className="font-bold text-lm-link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  PT Pelindo Multi Terminal
+                </a>{' '}
+                as a Engineer. My plan for the future is to develop myself into
+                someone who has value in the field of technology, to be precise
+                a Fullstack Developer, and prepare myself to compete in the
+                Industry 4.0 world with always learning about programming and
+                also implementing what I learn.
               </p>
             </div>
             <hr data-aos="fade-right" data-aos-delay="1000" />
