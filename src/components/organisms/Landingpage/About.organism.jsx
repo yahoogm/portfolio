@@ -1,42 +1,48 @@
 import { Typewriter } from 'react-simple-typewriter';
-import { Element } from 'react-scroll';
 import { BsDashLg } from 'react-icons/bs';
 import { FaGithubSquare, FaInstagramSquare, FaLinkedin } from 'react-icons/fa';
 
 const AboutOrganism = () => {
   return (
-    <Element name="about" className="py-12 px-4 lg:p-28 w-full">
+    <div name="about" className="py-8 px-6 md:px-10 lg:px-52 w-full">
       <div className="grid grid-cols-1 lg:grid-cols-3">
-        <div className="flex justify-center items-center p-5">
+        <div className="flex justify-center items-center p-5 lg:p-0">
           <div>
             <img
               src="/img/profile-pic.jpg"
               alt="profile"
               className="rounded-full object-cover object-center border-2 border-my-primary w-72 h-72 md:w-96 md:h-96 lg:w-full lg:h-full"
-              data-aos="zoom-in"
+              data-aos="fade-up"
             />
           </div>
         </div>
-        <div className="lg:col-span-2 lg:px-12 h-full flex items-center">
+        <div className="lg:col-span-2 lg:pl-10 h-full flex items-center">
           <div className="flex flex-col gap-4">
             <h6 className="font-bold">
               <div
-                className="font-consolas text-2xl text-my-primary"
-                data-aos="fade-right"
+                className="font-consolas text-2xl lg:text-6xl dark:text-dm-text-primary"
+                data-aos="fade-up"
                 data-aos-delay="200"
               >
-                Hello my name is
+                Hi!
               </div>
               <div
-                className="uppercase font-extrabold text-3xl"
-                data-aos="fade-right"
+                className="font-consolas text-2xl lg:text-6xl dark:text-dm-text-primary"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                You can call me
+              </div>
+              <div
+                className="uppercase font-extrabold text-2xl lg:text-5xl text-my-primary"
+                data-aos="fade-up"
                 data-aos-delay="400"
               >
                 Yahoo Garfield Manik,
               </div>
               <div
-                className="uppercase font-extrabold text-3xl"
-                data-aos="fade-right"
+                className="uppercase font-extrabold text-2xl lg:text-5xl text-my-primary"
+                data-aos="fade-up"
                 data-aos-delay="600"
               >
                 <Typewriter
@@ -52,14 +58,12 @@ const AboutOrganism = () => {
             </h6>
             <div>
               <p
-                className="text-justify text-lg"
-                data-aos="fade-right"
+                className="text-justify text-md lg:text-xl"
+                data-aos="fade-up"
                 data-aos-delay="800"
               >
-                I just finished my Diploma Degree 3 at the University of North
-                Sumatra, majoring in Informatics Engineering with Grade 3.72. My
-                latest activity is participating in the Magang Generasi
-                Bertalenta{' '}
+                I work with React Ecosystem. My latest activity is participating
+                in the Magang Generasi Bertalenta{' '}
                 <a
                   href="https://magentaku.id/"
                   className="font-bold text-lm-link"
@@ -77,17 +81,13 @@ const AboutOrganism = () => {
                 >
                   PT Pelindo Multi Terminal
                 </a>{' '}
-                as a Engineer. My plan for the future is to develop myself into
-                someone who has value in the field of technology, to be precise
-                a Fullstack Developer, and prepare myself to compete in the
-                Industry 4.0 world with always learning about programming and
-                also implementing what I learn.
+                as a Engineer.
               </p>
             </div>
-            <hr data-aos="fade-right" data-aos-delay="1000" />
+            <hr data-aos="fade-up" data-aos-delay="1000" />
             <div
               className="mb-10 flex gap-3 items-center "
-              data-aos="fade-right"
+              data-aos="fade-up"
               data-aos-delay="1200"
             >
               <a
@@ -114,7 +114,7 @@ const AboutOrganism = () => {
                   </svg>
                 </span>
 
-                <span className="relative text-lg font-medium text-my-primary transition-all group-hover:text-dm-text group-hover:me-4">
+                <span className="relative text-lg font-medium text-my-primary transition-all group-hover:text-dm-text-primary group-hover:me-4">
                   Download CV
                 </span>
               </a>
@@ -123,23 +123,23 @@ const AboutOrganism = () => {
               </div>
               <div className="flex gap-1 items-center">
                 <a href="https://www.instagram.com/yahoomanik/" target="blank">
-                  <FaInstagramSquare className="text-2xl md:text-4xl lg:text-6xl hover:text-my-primary transition-all ease-in" />
+                  <FaInstagramSquare className="text-2xl md:text-4xl lg:text-6xl dark:hover:text-my-primary dark:text-dm-text-primary transition-all ease-in" />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/yahoo-garfield-manik/"
                   target="blank"
                 >
-                  <FaLinkedin className="text-2xl md:text-4xl lg:text-6xl hover:text-my-primary transition-all ease-in" />
+                  <FaLinkedin className="text-2xl md:text-4xl lg:text-6xl dark:hover:text-my-primary dark:text-dm-text-primary transition-all ease-in" />
                 </a>
                 <a href="https://github.com/yahoogm" target="blank">
-                  <FaGithubSquare className="text-2xl md:text-4xl lg:text-6xl hover:text-my-primary transition-all ease-in" />
+                  <FaGithubSquare className="text-2xl md:text-4xl lg:text-6xl dark:hover:text-my-primary dark:text-dm-text-primaryt ransition-all ease-in" />
                 </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </Element>
+    </div>
   );
 };
 
