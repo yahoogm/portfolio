@@ -9,9 +9,9 @@ const AboutOrganism = () => {
         <div className="flex justify-center items-center p-5 lg:p-0">
           <div>
             <img
-              src="/img/profile-pic.jpg"
+              src="/img/home-icon.png"
               alt="profile"
-              className="rounded-full object-cover object-center border-2 border-my-primary w-72 h-72 md:w-96 md:h-96 lg:w-full lg:h-full"
+              className="object-cover object-center  w-72 h-72 md:w-96 md:h-96 lg:w-full lg:h-full"
               data-aos="fade-up"
             />
           </div>
