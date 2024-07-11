@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "title": "fullstack engineering",
+    "organizer": "goto impact foundation",
+    "link": "https://drive.google.com/file/d/1xUzYEu08NfZc5XaenljBdFV7AxWLBYzg/view?usp=sharing"
+  },
+  {
+    "id": 2,
+    "title": "frontend engineering",
+    "organizer": "alterra academy",
+    "link": "https://drive.google.com/file/d/1xjKAU9-I0ySXOws89qKynAIVGDpNnwTZ/view?usp=sharing"
+  },
+  {
+    "id": 3,
+    "title": "frontend web developer",
+    "organizer": "PT pundi mas berjaya",
+    "link": "https://drive.google.com/file/d/1oTkKEvfQVj7vy6WZcwPQUevGPYjUu8uW/view?usp=sharing"
+  },
+  {
+    "id": 4,
+    "title": "react JS",
+    "organizer": "progate",
+    "link": "https://drive.google.com/file/d/1yZgdHGaPl0wO0aUjf_0t85hWS3mvkGrC/view?usp=sharing"
+  },
+  {
+    "id": 5,
+    "title": "git",
+    "organizer": "progate",
+    "link": "https://drive.google.com/file/d/1GRQpcdyB_CM2iNbvRd6lNu9OBvDgRxrs/view?usp=sharing"
+  },
+  {
+    "id": 6,
+    "title": "english for business in software",
+    "organizer": "cakap",
+    "link": "https://drive.google.com/file/d/1ob_MphzGyLVquQIOAoHov5qAeB2sQL8c/view?usp=sharing"
+  },
+  {
+    "id": 7,
+    "title": "AWS cloud beginner",
+    "organizer": "dicoding",
+    "link": "https://drive.google.com/file/d/1YDC1FRKg-Jgfnoo1hA2L3MXwiOG_4OXn/view?usp=sharing"
+  },
+  {
+    "id": 8,
+    "title": "node JS",
+    "organizer": "progate",
+    "link": "https://drive.google.com/file/d/15faH5c7LIk6dThSWQViSJ2_zr4ekI889/view?usp=sharing"
+  },
+  {
+    "id": 9,
+    "title": "command line interface",
+    "organizer": "progate",
+    "link": "https://drive.google.com/file/d/1sKBQjluLsaamd0XGr7u6sRAiVYd-Qy2i/view?usp=sharing"
+  },
+  {
+    "id": 10,
+    "title": "javascript",
+    "organizer": "dicoding",
+    "link": "https://drive.google.com/file/d/1sZgPg5T9Ri7MoGk3yYGD5tDZhOjmeU9D/view?usp=sharing"
+  },
+  {
+    "id": 11,
+    "title": "SQL",
+    "organizer": "progate",
+    "link": "https://drive.google.com/file/d/13a-xWIVpXmhwT_oMTZqq3d3aPVqclAW9/view?usp=sharing"
+  },
+  {
+    "id": 12,
+    "title": "HTML & CSS",
+    "organizer": "progate",
+    "link": "https://drive.google.com/file/d/1n9af-pLAz4aPSNDZWhF5sTuA1rLbggEx/view?usp=sharing"
+  },
+  {
+    "id": 13,
+    "title": "web beginner",
+    "organizer": "dicoding",
+    "link": "https://drive.google.com/file/d/1HsCAfGQuQgxu3tz_YEv8BYZUiqNO5k8W/view?usp=sharing"
+  }
+]

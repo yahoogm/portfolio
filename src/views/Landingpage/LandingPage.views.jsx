@@ -1,22 +1,18 @@
-import { CarouselScroll } from "../../components/molecules";
 import {
   About,
   Certificate,
-  Contact,
   Footer,
-  Portfolio,
-} from "../../components/organisms";
-import { MainTemplate } from "../../components/template";
+  Projects,
+} from '../../components/organisms';
+import { MainTemplate } from '../../components/template';
 
 const LandingPageViews = () => {
   return (
     <div>
       <MainTemplate>
         <About />
-        <CarouselScroll />
-        <Portfolio />
+        <Projects />
         <Certificate />
-        <Contact />
         <Footer />
       </MainTemplate>
     </div>
