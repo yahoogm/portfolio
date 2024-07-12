@@ -33,7 +33,7 @@ const AboutViewPage = () => {
             <img
               src={'/img/profile.jpg'}
               alt="Example Image"
-              className="w-52 h-52 md:w-72 md:h-72 float-right rounded-md ml-2 mb-2"
+              className="w-40 h-40 md:w-72 md:h-72 float-right rounded-md ml-2 mb-2"
             />
             <p className="dark:text-neutral-300 text-lm-text md:text-lg">
               Hello! I&apos;m Yahoo Garfield Manik. I started studying frontend
