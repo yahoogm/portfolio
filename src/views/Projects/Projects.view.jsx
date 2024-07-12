@@ -2,14 +2,6 @@ import { BiLogoTailwindCss, BiLogoReact, BiLogoFirebase } from 'react-icons/bi';
 import { SiChakraui, SiNextdotjs, SiRedux } from 'react-icons/si';
 import { MainTemplate } from '../../components/template';
 import { Card } from '../../components/atoms';
-import {
-  baby_nutrition,
-  books_gallery,
-  sociops,
-  todo_mockup,
-  tokopeduli,
-  wastehub,
-} from '../../../public/img';
 import FooterOrganism from '../../components/organisms/Landingpage/Footer.organism';
 
 const ProjectsPageView = () => {
@@ -36,7 +28,7 @@ const ProjectsPageView = () => {
           <div data-aos="fade-up">
             <Card
               link={'/project/baby-nutrition'}
-              img={baby_nutrition}
+              img={'/img/portfolio/baby-nutrition.png'}
               title={'baby nutrition'}
               logo={
                 <div className="flex gap-2 items-center">
@@ -51,7 +43,7 @@ const ProjectsPageView = () => {
           <div data-aos="fade-up">
             <Card
               link={'/project/wastehubBesakih'}
-              img={wastehub}
+              img={'/img/portfolio/wastehub.jpg'}
               title={'Wastehub Besakih'}
               logo={
                 <div className="flex gap-2 items-center">
@@ -67,7 +59,7 @@ const ProjectsPageView = () => {
           <div data-aos="fade-up">
             <Card
               link={'/project/sociops'}
-              img={sociops}
+              img={'/img/portfolio/wastehub.jpg'}
               title={'Sociops'}
               description={
                 'Social campaigns volunteer programs and fundraising.'
@@ -82,7 +74,7 @@ const ProjectsPageView = () => {
           <div data-aos="fade-up">
             <Card
               link={'/project/tokopeduli'}
-              img={tokopeduli}
+              img={'/img/portfolio/tokopeduli.png'}
               title={'tokopeduli play'}
               description={
                 'Final project Generasi GIGIH Batch 3 from GOTO Foundation.'
@@ -97,7 +89,7 @@ const ProjectsPageView = () => {
           <div data-aos="fade-up">
             <Card
               link={'/project/books-gallery'}
-              img={books_gallery}
+              img={'/img/portfolio/books-gallery.png'}
               title={'books gallery'}
               description={
                 'Miniproject project on program MSIB 3 in Alterra Academy.'
@@ -113,7 +105,7 @@ const ProjectsPageView = () => {
           <div data-aos="fade-up">
             <Card
               link={'/project/todoApp'}
-              img={todo_mockup}
+              img={'/img/portfolio/todo.jpg'}
               title={'Todo App'}
               description={
                 'A website-based application created to make your todo list.'

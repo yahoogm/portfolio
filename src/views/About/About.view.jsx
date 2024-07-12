@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import { profile } from '../../../public/img';
 import { Footer } from '../../components/organisms';
 import { MainTemplate } from '../../components/template';
 import {
@@ -32,7 +31,7 @@ const AboutViewPage = () => {
         <div className="space-y-4 text-md">
           <div>
             <img
-              src={profile}
+              src={'/img/profile.jpg'}
               alt="Example Image"
               className="w-52 h-52 md:w-72 md:h-72 float-right rounded-md ml-2 mb-2"
             />
@@ -92,15 +91,15 @@ const AboutViewPage = () => {
             tech stack
           </h1>
           <div className="flex items-center gap-2">
-            <SiNextdotjs className="w-7 h-7 md:w-12 md:h-12" />
-            <FaReact className="w-7 h-7 md:w-12 md:h-12" />
-            <BiLogoTypescript className="w-7 h-7 md:w-12 md:h-12" />
-            <SiTailwindcss className="w-7 h-7 md:w-12 md:h-12" />
-            <SiRedux className="w-7 h-7 md:w-12 md:h-12" />
-            <TbBrandReactNative className="w-7 h-7 md:w-12 md:h-12" />
-            <SiFirebase className="w-7 h-7 md:w-12 md:h-12" />
-            <BiLogoMongodb className="w-7 h-7 md:w-12 md:h-12" />
-            <SiMysql className="w-10 h-10 md:w-14 md:h-14" />
+            <SiNextdotjs className="w-6 h-6 md:w-12 md:h-12" />
+            <FaReact className="w-6 h-6 md:w-12 md:h-12" />
+            <BiLogoTypescript className="w-6 h-6 md:w-12 md:h-12" />
+            <SiTailwindcss className="w-6 h-6 md:w-12 md:h-12" />
+            <SiRedux className="w-6 h-6 md:w-12 md:h-12" />
+            <TbBrandReactNative className="w-6 h-6 md:w-12 md:h-12" />
+            <SiFirebase className="w-6 h-6 md:w-12 md:h-12" />
+            <BiLogoMongodb className="w-6 h-6 md:w-12 md:h-12" />
+            <SiMysql className="w-8 h-8 md:w-14 md:h-14" />
           </div>
         </div>
 

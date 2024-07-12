@@ -1,7 +1,6 @@
 import { Card } from '../../atoms';
 import { BiLogoTailwindCss, BiLogoReact } from 'react-icons/bi';
 import { SiNextdotjs } from 'react-icons/si';
-import { sociops, todo_mockup, wastehub } from '../../../../public/img';
 import { useNavigate } from 'react-router-dom';
 
 const Projects = () => {
@@ -28,7 +27,7 @@ const Projects = () => {
         <div data-aos="fade-up">
           <Card
             link={'/project/wastehubBesakih'}
-            img={wastehub}
+            img={'/img/portfolio/wastehub.jpg'}
             title={'Wastehub Besakih'}
             logo={
               <div className="flex gap-2 items-center">
@@ -43,7 +42,7 @@ const Projects = () => {
         <div data-aos="fade-up">
           <Card
             link={'/project/todoApp'}
-            img={todo_mockup}
+            img={'/img/portfolio/todo.jpg'}
             title={'Todo App'}
             description={
               'A website-based application created to make your todo list.'
@@ -58,7 +57,7 @@ const Projects = () => {
         <div data-aos="fade-up">
           <Card
             link={'/project/sociops'}
-            img={sociops}
+            img={'/img/portfolio/sociops.png'}
             title={'Sociops'}
             description={'Social campaigns volunteer programs and fundraising.'}
             logo={
