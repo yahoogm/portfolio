@@ -38,8 +38,9 @@ const AboutViewPage = () => {
             <p className="dark:text-neutral-300 text-lm-text md:text-lg">
               Hello! I&apos;m Yahoo Garfield Manik. I started studying frontend
               web development when I was studying at the University of North
-              Sumatra, majoring in Information Engineering in 2020. I learned a
-              lot about web development, not only from campus material, but from{' '}
+              Sumatra, majoring in Information Engineering in 2020 and finished
+              the course in 2023. I learned a lot about web development, not
+              only from campus material, but from{' '}
               <Link
                 className="transition ease-in-out duration-150 delay-75 dark:text-my-primary underline underline-offset-4 dark:decoration-dm-text decoration-dotted dark:hover:decoration-my-primary hover:decoration-my-primary"
                 to={'https://www.youtube.com/@sandhikagalihWPU'}
