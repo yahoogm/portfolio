@@ -59,7 +59,7 @@ const ProjectsPageView = () => {
           <div data-aos="fade-up">
             <Card
               link={'/project/sociops'}
-              img={'/img/portfolio/wastehub.jpg'}
+              img={'/img/portfolio/sociops.png'}
               title={'Sociops'}
               description={
                 'Social campaigns volunteer programs and fundraising.'
