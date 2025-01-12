@@ -1,34 +1,42 @@
-import { BiSolidCategoryAlt } from "react-icons/bi";
+import { Link } from 'react-router-dom';
 
-const CardAtom = ({ link, title, description, category, img }) => {
+const CardAtom = ({ link, title, description, img, logo }) => {
   return (
-    <a
-      href={link}
-      className="group relative block h-64 sm:h-80 lg:h-96"
-      target="_blank"
-      rel="noreferrer"
-    >
-      <span
-        className={`absolute inset-0 border-2 border-dashed border-my-primary ${img} bg-cover bg-top`}
-      ></span>
+    <Link to={link}>
+      <div className="transition ease-in-out delay-150 bg-blue-500 hover:scale-[1.03] hover:bg-indigo-500 duration-300 border border-neutral-300 rounded-md shadow dark:border-neutral-500 p-4 flex flex-col h-full">
+        <img className="object-contain rounded-md" src={img} alt="wastehub" />
 
-      <div className="relative flex h-full transform items-end border-2 border-my-primary  transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2 group-hover:bg-lm-background group-hover:dark:bg-dm-background duration-300 ease-in-out">
-        <div className="p-4 sm:p-6 lg:p-8 !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0" />
-
-        <div className="absolute p-4 opacity-0 transition-opacity group-hover:relative group-hover:opacity-100 sm:p-6 lg:p-8">
-          <h3 className="mt-4 text-xl font-medium sm:text-2xl capitalize">
-            {title}
-          </h3>
-
-          <p className="mt-2 lg:mt-4 text-sm sm:text-base">{description}</p>
-
-          <p className="mt-4 lg:mt-8 font-bold flex items-center gap-5">
-            <BiSolidCategoryAlt />
-            <span>{category}</span>
+        <div className="py-2">
+          <span>
+            <h5 className="mb-2 capitalize text-md font-bold tracking-tight dark:text-dm-text-primary">
+              {title}
+            </h5>
+          </span>
+          <span>{logo}</span>
+          <p className="text-sm mt-2 mb-3 text-gray-700 dark:text-gray-400 ">
+            {description}
           </p>
+          <span className="inline-flex items-center text-sm font-medium text-center text-white bg-blue-700 rounded-lg">
+            Read more
+            <svg
+              className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 14 10"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M1 5h12m0 0L9 1m4 4L9 9"
+              />
+            </svg>
+          </span>
         </div>
       </div>
-    </a>
+    </Link>
   );
 };
 

@@ -1,55 +1,49 @@
-import { Element } from 'react-scroll';
-import { AnimateLine, CardCertificate } from '../../atoms';
+import { useNavigate } from 'react-router-dom';
+import { CardCertificate } from '../../atoms';
 
 const CertificateOrganism = () => {
+  const navigate = useNavigate();
   return (
-    <Element name="certificate" className="py-16 px-4 lg:px-28">
+    <div name="certificate" className="py-16 px-6 md:px-10 lg:px-52">
       <div
-        className="text-xl md:text-2xl lg:text-3xl font-semibold text-center text-my-primary"
+        className="text-2xl md:text-3xl lg:text-5xl font-extrabold py-3 text-my-primary text-start"
         data-aos="fade-up"
       >
-        Certificate
+        Featured Certificate
       </div>
+
       <div
-        className="text-2xl md:text-3xl lg:text-5xl font-extrabold text-center py-3"
+        className="text-md lg:text-xl font-medium text-start mb-5"
         data-aos="fade-up"
-      >
-        Latest Certificate
-      </div>
-      <div className="flex justify-center my-5" data-aos="fade-up">
-        <AnimateLine />
-      </div>
-      <div
-        className="text-lg lg:text-xl font-medium text-center mb-10"
-        data-aos="zoom-in-up"
       >
         Explore my collection of certificates reflecting my commitment to skill
         enhancement and personal growth.
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
-        <div data-aos="flip-down">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 md:gap-4">
+        <div data-aos="fade-up">
           <CardCertificate
             title={'FullStack Engineering'}
             organizer={'GoTo Impact Foundation'}
             link={
-              'https://drive.google.com/file/d/1P1Kx8i0rcJxX19oBoljXf9OfWYN6A0sU/view?usp=sharing'
+              'https://drive.google.com/file/d/1xUzYEu08NfZc5XaenljBdFV7AxWLBYzg/view?usp=sharing'
             }
           />
         </div>
-        <div data-aos="flip-down">
+        <div data-aos="fade-up">
           <CardCertificate
             title={'React JS'}
             organizer={'Progate'}
             link={'https://progate.com/course_certificate/fc57e20eryrea5'}
           />
         </div>
-        <div data-aos="flip-down">
+        <div data-aos="fade-up">
           <CardCertificate
             title={'Git'}
             organizer={'Progate'}
             link={'https://progate.com/course_certificate/a34468adrxdqns'}
           />
         </div>
+<<<<<<< HEAD
         <div data-aos="flip-down">
           <CardCertificate
             title={'HTML & CSS'}
@@ -144,8 +138,17 @@ const CertificateOrganism = () => {
             }
           />
         </div>
+=======
+>>>>>>> 16181d2e8de6cb0a705669736981a4d042e89dd0
       </div>
-    </Element>
+      <button
+        data-aos="fade-up"
+        className="mt-4 border p-2 rounded-md border-neutral-300 dark:border-neutral-500 font-bold transition ease-in-out delay-75 hover:scale-x-105  duration-300"
+        onClick={() => navigate('/certificates')}
+      >
+        See more certificates
+      </button>
+    </div>
   );
 };
 

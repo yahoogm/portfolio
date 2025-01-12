@@ -1,0 +1,341 @@
+{
+  "wastehubBesakih": {
+    "id": 1,
+    "title": "Wastehub Besakih",
+    "domain": "https://besakih.wastehub.id/",
+    "description": "Web application for handling waste management in Besakih Village.",
+    "explanation": "Wastehub is a website-based waste management application used by Besakih village in Bali. In the process of building this website, the team was assisted by the wastehub company to collect data. This application is my final project when I took part in an independent study program held by the independent campus at Alterra Academy.",
+    "goals": "Together with the Frontend, Backend, QA and UI/UX teams, the aim is to create this management application to make it easier for waste managers in the Besakih village environment to find out how much waste has been transported or not yet transported to the waste collection site and introduce what the application is to the village.",
+    "img": "/img/portfolio/wastehub.jpg",
+    "tech": ["React", "Tailwind CSS", "Material UI", "Yup", "Vite"],
+    "team": "10",
+    "detailTeam": [
+      {
+        "name": "anisa nadia",
+        "profile": "https://www.linkedin.com/in/nadiannis/",
+        "role": "frontend developer & UI/UX designer"
+      },
+      {
+        "name": "ilham wisnu",
+        "profile": "https://www.linkedin.com/in/ilhmwisnu/",
+        "role": "frontend developer & UI/UX designer"
+      },
+      {
+        "name": "yahoo garfield manik",
+        "profile": "https://www.linkedin.com/in/yahoo-garfield-manik/",
+        "role": "frontend developer & UI/UX designer"
+      },
+      {
+        "name": "alif mustaqim",
+        "profile": "https://github.com/Acigam",
+        "role": "frontend developer & UI/UX designer"
+      },
+      {
+        "name": "ahmad naufal fadhil",
+        "profile": "https://www.linkedin.com/in/naufal360/",
+        "role": "frontend developer & UI/UX designer"
+      },
+      {
+        "name": "madan dinata",
+        "profile": "https://github.com/madan-dinata",
+        "role": "frontend developer & UI/UX designer"
+      },
+      {
+        "name": "alfaafan yusufa achmad",
+        "profile": "https://www.linkedin.com/in/alfaafan/",
+        "role": "backend developer"
+      },
+      {
+        "name": "raka iskandar",
+        "profile": "https://github.com/rakaiskandar",
+        "role": "backend developer"
+      },
+      {
+        "name": "alan luthfi",
+        "profile": "https://github.com/alanluthfi",
+        "role": "backend developer"
+      },
+      {
+        "name": "diki siswanto",
+        "profile": "https://www.linkedin.com/in/dikisiswanto/",
+        "role": "backend developer"
+      }
+    ],
+    "features": [
+      {
+        "title": "dashboard",
+        "description": "Displays data on waste collection, collected waste, retribution funds, number of residents and number of collectors. Users can see graphs of total completed, canceled and rejected waste collections, and users can download files in PNG, SVG and CSV format. Users can see the waste collection table which contains the name of the collector, type and status of the waste."
+      },
+      {
+        "title": "report",
+        "description": "Displays waste collection data in table form. Contains the order date, collection date, resident's name, collector's name, type of waste, weight, cost and status. For this feature we provide filters based on date or status."
+      },
+      {
+        "title": "garbage collection",
+        "description": "Contains a table displaying the resident's name, resident's cellphone number, collector's name, type of waste, order date, status and location of waste collection."
+      },
+      {
+        "title": "waste volume",
+        "description": "Regulations for waste collection so that you know how much it costs to pick up waste based on minimum and maximum weight."
+      },
+      {
+        "title": "waste type",
+        "description": "Explanation of types of waste, such as valuable, organic and residual waste."
+      },
+      {
+        "title": "member",
+        "description": "Contains a table displaying all of the member, such as name, mobile phone, and email."
+      },
+      {
+        "title": "collector",
+        "description": "Contains data on affiliated and unaffiliated collectors."
+      },
+      {
+        "title": "subscriber",
+        "description": "Contains all members who have subscribed."
+      }
+    ]
+  },
+  "todoApp": {
+    "id": 2,
+    "title": "Todo App",
+    "domain": "https://the-todo-beta.vercel.app/",
+    "description": "A website-based application created to make your todo list.",
+    "explanation": "Todo App is a website-based application that I built when participating in an interview process at a company. Where I was told to create this todo list application within 3 days and the company provided the API for the login, register, as well as add, delete, edit and todo details processes.",
+    "goals": "Users can use this application for needs such as making a list of daily activities easily and this application meets the needs of the company that conducted the interview process with me.",
+    "img": "/img/portfolio/todo.jpg",
+    "tech": ["Next.js", "Tailwind CSS", "Daisy UI", "Formik", "Yup"],
+    "team": "1",
+    "detailTeam": [
+      {
+        "name": "yahoo garfield manik",
+        "profile": "https://www.linkedin.com/in/yahoo-garfield-manik/",
+        "role": "fullstack developer"
+      }
+    ],
+    "features": [
+      {
+        "title": "sign in",
+        "description": "Before add todo, user must login with email and password."
+      },
+      {
+        "title": "sign up",
+        "description": "Before sign in user must sign up with username, email, name, password."
+      },
+      {
+        "title": "add todo",
+        "description": "Users can add a task by entering the task name and description."
+      },
+      {
+        "title": "edit todo",
+        "description": "Users can edit a task by entering the task name and description."
+      },
+      {
+        "title": "delete todo",
+        "description": "Users can delete a task using button delete."
+      },
+      {
+        "title": "detail todo",
+        "description": "Users can view a detail task using button detail."
+      }
+    ]
+  },
+  "sociops": {
+    "id": 3,
+    "title": "Sociops",
+    "domain": "https://sociops-admin.vercel.app/",
+    "description": "Social campaigns volunteer programs and fundraising.",
+    "explanation": "Sociops is a website-based fundraising management application. All data displayed in this application is the result of additions to the mobile application that has been created. This application can only be accessed by admins.",
+    "goals": "This application was created with the aim of making it easier for a company to see how the fundraising is progressing in response to a disaster. Admins can also easily add news that occurs to raise funds.",
+    "img": "/img/portfolio/sociops.png",
+    "tech": [
+      "Next.js",
+      "Tailwind CSS",
+      "Redux",
+      "Daisy UI",
+      "Chart JS",
+      "Firebase",
+      "Formik",
+      "Moment JS",
+      "Yup",
+      "Axios"
+    ],
+    "team": "5",
+    "detailTeam": [
+      {
+        "name": "wildan rachmadoni",
+        "profile": "https://www.linkedin.com/in/wildan-rachmadoni/",
+        "role": "frontend developer"
+      },
+      {
+        "name": "eka bayu satriawan",
+        "profile": "https://www.linkedin.com/in/eka-bayu-satriawan/",
+        "role": "frontend developer"
+      },
+      {
+        "name": "yahoo garfield manik",
+        "profile": "https://www.linkedin.com/in/yahoo-garfield-manik/",
+        "role": "frontend developer"
+      },
+      {
+        "name": "moh alvian noer",
+        "profile": "https://www.linkedin.com/in/mohalviannoer/",
+        "role": "frontend developer"
+      },
+      {
+        "name": "nur adela",
+        "profile": "https://www.linkedin.com/in/nur-adela-998191260/",
+        "role": "frontend developer"
+      },
+      {
+        "name": "zuhdiyazmi",
+        "profile": "https://www.linkedin.com/in/zuhdiyazmi/",
+        "role": "backend developer"
+      },
+      {
+        "name": "baryova martcelio",
+        "profile": "https://www.linkedin.com/in/baryova/",
+        "role": "backend developer"
+      }
+    ],
+    "features": [
+      {
+        "title": "dashboard",
+        "description": "This dashboard displays customer, fundraising, volunteer and news statistics. The display on this page is a graph per month."
+      },
+      {
+        "title": "customer",
+        "description": "Admins can see customer statistics per month, and data on new users, fundraising and volunteers."
+      },
+      {
+        "title": "fundraising",
+        "description": "Admins can view program submission requests, program lists, program history, and transactions. Monthly fundraising statistics will be displayed in graphical form and will show requests for new programs as well as new programs that are currently underway."
+      },
+      {
+        "title": "volunteer",
+        "description": "Admins can view program submission requests, program lists, and program history. Volunteer statistics will be displayed with monthly graphs."
+      },
+      {
+        "title": "news",
+        "description": "Admin can view list of news, and add some news."
+      }
+    ]
+  },
+  "tokopeduli": {
+    "id": 4,
+    "title": "tokopeduli play",
+    "domain": "https://tokopeduli-play.vercel.app/",
+    "description": "Final project Generasi GIGIH Batch 3 from GOTO Foundation.",
+    "explanation": "Tokopeduli Play is a website-based application that was built when I participated in the Generasi GIGIH Batch 3 program held by the GOTO Foundation. This application is my final project. I got inspiration from Tokopedia Play when I wanted to make this application.",
+    "goals": "The purpose of making this application is to fulfill my graduation requirements in the Generasi GIGIH Batch 3 program and to implement all the knowledge I have learned, in the form of Next JS, Git, Github, and Express JS.",
+    "img": "/img/portfolio/tokopeduli.png",
+    "tech": ["React.js", "Chakra UI", "Firebase", "Formik", "Yup", "Axios"],
+    "team": "1",
+    "detailTeam": [
+      {
+        "name": "yahoo garfield manik",
+        "profile": "https://www.linkedin.com/in/yahoo-garfield-manik/",
+        "role": "fullstack developer"
+      }
+    ],
+    "features": [
+      {
+        "title": "add comment",
+        "description": "Users can add comments to a video. To fill in comments, users must fill in their username and comments."
+      }
+    ]
+  },
+  "books-gallery": {
+    "id": 5,
+    "title": "books gallery",
+    "domain": "https://books-gallery-tawny.vercel.app/",
+    "description": "Miniproject project on program MSIB 3 in Alterra Academy.",
+    "explanation": "Books gallery is a website-based application that I built while participating in the MSIB Batch 3 program from the Merdeka Campus which is located at Alterra Academy. I was inspired by Google Books to create this application, and I used the Google Books API to display all the books.",
+    "goals": "This application was created to make it easier for people to find free books to read. Users can also provide comments and read the book directly on the web. This application is also a prerequisite for participating in the MSIB Batch 3 program at Alterra Academy.",
+    "img": "/img/portfolio/books-gallery.png",
+    "tech": [
+      "Next.js",
+      "Tailwind CSS",
+      "Daisy UI",
+      "Firebase",
+      "Redux",
+      "Yup",
+      "Axios"
+    ],
+    "team": "1",
+    "detailTeam": [
+      {
+        "name": "yahoo garfield manik",
+        "profile": "https://www.linkedin.com/in/yahoo-garfield-manik/",
+        "role": "fullstack developer"
+      }
+    ],
+    "features": [
+      {
+        "title": "OAuth 2.0",
+        "description": "The login feature in this application uses OAuth 2.0 provided by Firebase, I use Google OAuth, to make the process of using the application and storing user data easier."
+      },
+      {
+        "title": "search books",
+        "description": "Users can search for books by title."
+      },
+      {
+        "title": "embedded view book",
+        "description": "Users can read books directly on the website. Because I have used the embedded view API feature provided by the Google Books API, if the book cannot be read, a notification will appear."
+      },
+      {
+        "title": "comment",
+        "description": "Users can add comments, edit and delete a book. To add comments the user must fill in the input form. The edit and delete features can only be done by users who send their own comments."
+      }
+    ]
+  },
+  "baby-nutrition": {
+    "id": 6,
+    "title": "baby nutrition",
+    "domain": "https://baby-nutrition.vercel.app/",
+    "description": "Web application for baby calorie management.",
+    "explanation": "Website-based application built for managing toddlers' calorie needs for the food or drinks they consume. This application is my final assignment when studying at the University of North Sumatra majoring in Informatics Engineering so that I can graduate.",
+    "goals": "The aim of creating this application is to help today's mothers know how important nutritional value is for their toddlers, as well as managing daily calorie needs. As we know nowadays, many mothers use smartphones, so I thought of the idea to build this application.",
+    "img": "/img/portfolio/baby-nutrition.png",
+    "tech": [
+      "Next.js",
+      "Tailwind CSS",
+      "Daisy UI",
+      "Firebase",
+      "Redux",
+      "Yup",
+      "Axios",
+      "Formik"
+    ],
+    "team": "1",
+    "detailTeam": [
+      {
+        "name": "yahoo garfield manik",
+        "profile": "https://www.linkedin.com/in/yahoo-garfield-manik/",
+        "role": "fullstack developer"
+      }
+    ],
+    "features": [
+      {
+        "title": "OAuth 2.0",
+        "description": "The login feature in this application uses OAuth 2.0 provided by Firebase, I use Google OAuth, to make the process of using the application and storing user data easier."
+      },
+      {
+        "title": "calculator BMR",
+        "description": "This calculator is used to find out how many calories a toddler needs in a day and what types of food or drinks are suitable for consumption."
+      },
+      {
+        "title": "foods recomendation",
+        "description": "Explains healthy foods that are recommended for consumption by toddlers to meet nutritional value, such as protein, carbohydrates, fat and fiber, thereby producing the calories toddlers need every day. Users can choose the type of food they will eat later and add it to their report."
+      },
+      {
+        "title": "report",
+        "description": "This section will display all the foods that have been consumed and added via the foods recommendations page. Users can also delete each item if they make an input error."
+      },
+      {
+        "title": "profile",
+        "description": "Users can edit their account, such as username and profile photo. Edit the toddler's data such as age, height, gender and weight. There is an application exit button and an explanation about the application."
+      }
+    ]
+  }
+}

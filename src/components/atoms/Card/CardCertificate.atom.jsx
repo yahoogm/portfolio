@@ -1,17 +1,17 @@
-import { PiTagSimpleFill } from "react-icons/pi";
+import { PiTagSimpleFill } from 'react-icons/pi';
 
 const CardCertificateAtom = ({ title, organizer, link }) => {
   return (
-    <div className="mx-5 mb-1 grid grid-cols-12 py-4 border-l-4 border-my-primary shadow-xl dark:bg-neutral-800">
+    <div className="grid grid-cols-12 py-4 border-l-4 shadow-xl dark:bg-neutral-900 border border-neutral-300 dark:border-neutral-500 rounded-md">
       <div className="pt-1 -ml-[2px]">
         <PiTagSimpleFill size={20} className="text-my-primary" />
       </div>
       <div className="col-span-11 flex flex-col justify-between gap-5">
         <div>
-          <div className="text-lg lg:text-xl font-semibold line-clamp-1 pr-5">
+          <div className="text-lg lg:text-xl font-semibold line-clamp-1 pr-5 capitalize dark:text-dm-text-primary">
             {title}
           </div>
-          <div className="text-base lg:text-lg">
+          <div className="text-base lg:text-lg capitalize">
             <i>{organizer}</i>
           </div>
         </div>

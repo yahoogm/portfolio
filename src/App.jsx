@@ -1,19 +1,20 @@
-import { Provider } from "react-redux";
-import { LandingPage } from "./views";
-import store, { persiststore } from "./configs/redux/store";
-import { PersistGate } from "redux-persist/integration/react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import { Provider } from 'react-redux';
+import store, { persiststore } from './configs/redux/store';
+import { PersistGate } from 'redux-persist/integration/react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { RouterProvider } from 'react-router-dom';
+import { Router } from './Router';
 
 function App() {
   AOS.init({
-    duration: 800,
-    easing: "ease-out",
+    duration: 500,
+    easing: 'ease-out',
   });
   return (
     <Provider store={store}>
       <PersistGate persistor={persiststore}>
-        <LandingPage />
+        <RouterProvider router={Router} />
       </PersistGate>
     </Provider>
   );
