@@ -43,7 +43,6 @@ const CertificateOrganism = () => {
             link={'https://progate.com/course_certificate/a34468adrxdqns'}
           />
         </div>
-<<<<<<< HEAD
         <div data-aos="flip-down">
           <CardCertificate
             title={'HTML & CSS'}
@@ -138,8 +137,6 @@ const CertificateOrganism = () => {
             }
           />
         </div>
-=======
->>>>>>> 16181d2e8de6cb0a705669736981a4d042e89dd0
       </div>
       <button
         data-aos="fade-up"
