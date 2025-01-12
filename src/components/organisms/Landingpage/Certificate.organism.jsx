@@ -135,6 +135,15 @@ const CertificateOrganism = () => {
             }
           />
         </div>
+        <div data-aos="flip-down" data-aos-delay="300">
+          <CardCertificate
+            title={'Engineering'}
+            organizer={'PT Pelindo Multi Terminal'}
+            link={
+              'https://drive.google.com/file/d/15HjhCGyzXKwG1LM-TvYdGDtr-wSY9VQF/view?usp=sharing'
+            }
+          />
+        </div>
       </div>
     </Element>
   );
